@@ -25,8 +25,55 @@
           <li>Attributes to tags help make tags more specific, such as defining content for screen readers.</li>
         </ul>
       </section>
-      <section class="card" id="css-section"></section>
-      <section class="card" id="javascript-section"></section>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li><!--Insert CSS notes here--></li>
+        </ul>
+      </section>
+      <section class="card" id="Git">
+        <h2>Git</h2>
+        <ul>
+          <li>Updating GitHub</li>
+            <ol>
+              <li>On local terminal:</li>
+                <ol>
+                  <li>git status: check you are on your feature branch</li>
+                  <li>git add -A: add all files to staging OR git add filename: add specific files to staging</li>
+                  <li>git commit -m "comment text here": add a message for others to see about your commit</li>
+                  <li>git pull origin main: get the most up to date main branch before pushing code to GitHub</li>
+                  <li>git push origin feature/branchname: push your branch updates to GitHub</li>
+                </ol>
+              <li>On GitHub website:</li>
+                <ol>
+                  <li>Open feature branch in repo --> should show Main to feature branch</li>
+                  <li>Create a pull request (PR) with a descriptive title and also 1) instructions, 2) functionality decription, and 3) how to test for peer review</li>
+                  <li>After approval, click Merge Pull Request</li>
+                </ol>
+            </ol>
+          <li>Adding New Branch to Main</li>
+            <ol>
+              <li>On local terminal:</li>
+              <ol>
+                <li>git checkout main: switch (i.e. local terminal looks at) to updated main branch from GitHub</li>
+                <li>git pull origin main: pull the newest main branch to the local environment OR git pull: pulls the most recently viewed branch, which in this case is Main</li>
+                <li>git checkout -b feature/new-branch-name: create and switch to a new feature branch</li>
+                <li>git status: verify that the terminal is on the new branch</li>
+                <li>code .: open the local IDE (VS Code) to begin editing</li>
+                <li>NOTE: If you forget to pull from main, you will have to add a step before opening the editor</li>
+                <ul>
+                  <li>git merge main: merge the newly created out-of-sync feature branch with the updated main branch on GitHub</li>
+                </ul>
+              </ol>
+            </ol>
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li><!--Insert JS notes here--></li>
+        </ul>
+      </section>
     </main>
 
     <footer>
