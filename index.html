@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -40,6 +41,17 @@
       <section class="card" id="Git">
         <h2>Git</h2>
         <ul>
+          <li>Navigating Git or Git Bash</li>
+          <ul>
+            <li>pwd: print working directory, i.e. name the current open folder location</li>
+            <li>ls: list out items in current directory</li>
+            <li>cd: move down one directory, i.e. open folder</li>
+            <li>cd .: stay in current directory</li>
+            <li>cd ..: move upwards one directory, i.e. move back one folder</li>
+            <li>mkdir: make directory, i.e. create a new folder at current folder location</li>
+            <li>touch filename.extension: create a file using Git Bash</li>
+            <li>git branch -d [branchname]: delete a named local branch</li>
+          </ul>
           <li>Updating GitHub</li>
             <ol>
               <li>On local terminal:</li>
@@ -81,7 +93,38 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li><!--Insert JS notes here--></li>
+          <li>JavaScript is referred to as JS, and the file extension is .js</li>
+          <li>JS adds functionality to a page for when the User interacts with it, like filling out forms, clicking buttons, etc.</li>
+          <li>JS has many built-in objects, which in turn, have many built-in methods to use without having to "reinvent the wheel"</li>
+          <li>var VariabeName: defines and names a variable. This is called "declaring" a variable.</li>
+            <ul>
+              <li>var category = ["item1", "item2", "item3"];: defines and names a variable and an array (or list) of values/objects assigned to the variable</li>
+            </ul>
+          <li>When writing a webpage, connect HTML and JS with script src="./assets/script.js" within script angle bracket elements after the footer but still inside the body</li>
+          <li>Chrome DevTools: shows developers on Chrome browser how JS works with the website being viewed</li>
+              <ul>
+                <li>right-click a webpage and select Inspect, and navigate to the Console tab</li>
+                <li>Cmd+option+I: Mac shortcut to open Chrome DevTools in Google Chrome</li>
+                <li>Cntrl+Shift+I: Windows shortcut to open Chrome DevTools in Google Chrome</li>
+              </ul>
+          <li>loop: using a predictable pattern to cycle through data</li>
+              <ul>
+                <li>create a for loop</li>
+                  <ol>
+                    <li>loop starting point: declare a variable and give it a value, for example var x = 0;</li>
+                    <li>set a condition: the loop will continue to run until the conditoin is no longer met, for example x < shapes.length;</li>
+                    <li>allow the array to iterate over each listed item: x++ (it's a shortcut for x+1)</li>
+                    <li>EXAMPLE: for(var x = 0; x < shapes.length; x++) {
+                      // code block
+                     }</li>
+                  </ol>
+                <li>create an if loop</li>
+                  <ol>
+                    <li>loop starting point: if(condition)</li>
+                    <li>optional secondary cases: else if / else</li>
+                    <li>EXAMPLE: </li>
+                  </ol>
+              </ul>
         </ul>
       </section>
     </main>
@@ -89,5 +132,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
