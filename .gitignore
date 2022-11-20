@@ -1,3 +1,6 @@
+#.DS_Store is a Macbook file that saves Finder data
+.DS_Store
+
 # Logs
 logs
 *.log
